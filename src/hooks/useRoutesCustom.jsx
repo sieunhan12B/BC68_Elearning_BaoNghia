@@ -12,6 +12,7 @@ import AdminTemplate from '../template/AdminTemplate/AdminTemplate'
 const AdminLogin = React.lazy(() => import('../pages/AdminLogin/AdminLogin'))
 import { Skeleton } from 'antd'
 import CreateUser from '../pages/CreateUser/CreateUser'
+import Home from '../pages/Home/Home'
 // import ManagerUser from '../pages/ManagerUser/ManagerUser'
 const ManagerUser = React.lazy(() => import('./../pages/ManagerUser/ManagerUser'))
 
@@ -24,7 +25,11 @@ const useRoutesCustom = () => {
         {
           path: path.listJob,
           element: <Suspense fallback={<Skeleton />}><ListJobPage /></Suspense>
-        }
+        },
+        {
+          index: true,
+          element: <Home />,
+        },
       ]
     },
     {
