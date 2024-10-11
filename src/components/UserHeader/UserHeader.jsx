@@ -37,6 +37,11 @@ const UserHeader = () => {
 
       <Link to={path.signIn} className='py-2 px-4 rounded-md hover:bg-gray-200 duration-300'>Đăng ký</Link>
       <Link to={path.signUp} className='py-2 px-4 text-green-500 border border-green-500 rounded-md hover:bg-green-500 duration-300 hover:text-white '>Join</Link>
+      <div className='flex gap-3 py-2 px-2 rounded-md hover:bg-gray-100 duration-30'>
+             <h2 >Khóa học</h2>
+              <h3>Bài viết</h3>
+              <h4>Liên hệ</h4>
+            </div>
     </>
   }
 
@@ -47,11 +52,7 @@ const UserHeader = () => {
           <div className="header_logo flex items-center space-x-5">
             <Link to={path.homePage}>
             <img className='md:max-xl:flex' src="./public/logo.png" alt="" />
-            <div className='flex gap-3 py-2 px-2 rounded-md hover:bg-gray-100 duration-30'>
-             <h2 >Khóa học</h2>
-              <h3>Bài viết</h3>
-              <h4>Liên hệ</h4>
-            </div>
+            
 
               {/* <LogoIcon /> */}
             </Link>

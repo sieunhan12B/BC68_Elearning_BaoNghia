@@ -227,14 +227,15 @@
 
 
 
-
-
-
 import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='Header'>
+     
+      <img className='md:max-lg:flex' src="./public/header_1.jpeg" alt="" />
+      
+    </div>
   )
 }
 
