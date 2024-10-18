@@ -1,8 +1,16 @@
 export const path = {
   homePage: "/",
   pageNotFound: "*",
-  signUp: "/sign-up",
+  signUp: "/dang-ky",
+  logIn: "/dang-nhap",
   signIn: "/dang-nhap",
   listJob: "/list-job",
   admin: "/admin",
+  managerUser: "manager-user",
+  createUser: "create-user",
+  register: "/dang-ki",
+  adminLogIn: "/admin-login",
+  inFoUser: "thong-tin-tai-khoan",
+  student: "/student",
+  myLesson: "bai-hoc-cua-toi",
 };
