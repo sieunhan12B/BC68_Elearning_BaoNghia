@@ -32,7 +32,6 @@ const items = [
 const UserHeader = () => {
   const { infoUser } = useSelector((state) => state.authSlice);
   console.log(infoUser);
-  console.log(infoUser.taiKhoan);
   const checkUserLogin = () => {
     return infoUser ? (
       <Dropdown
