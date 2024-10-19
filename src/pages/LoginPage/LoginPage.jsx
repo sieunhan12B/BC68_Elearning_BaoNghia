@@ -20,9 +20,9 @@ import PageNotFound from "../../components/PageNotFound/PageNotFound";
 import { Image } from "antd";
 import { path } from "../../common/path";
 import { nguoiDungService } from "../../service/nguoiDung.service";
-import FacebookLogin from "react-facebook-login";
-import ReactFacebookLogin from "react-facebook-login";
-import FaceBook from "../../components/Icon/FaceBook";
+// import FacebookLogin from "react-facebook-login";
+// import ReactFacebookLogin from "react-facebook-login";
+// import FaceBook from "../../components/Icon/FaceBook";
 const LoginPage = () => {
   const isReponsive = useResponsive({
     mobile: 576,
@@ -150,9 +150,9 @@ const LoginPage = () => {
                   <span>
                     {/* <i className=" bg-[rgb(24,119,242)] fa-brands fa-facebook"></i>
                      */}
-                    <FaceBook />
+                    {/* <FaceBook /> */}
                   </span>
-                  <ReactFacebookLogin
+                  {/* <ReactFacebookLogin
                     cssClass="btnfb"
                     appId="1493093984735988"
                     fields="name,email,picture"
@@ -171,7 +171,7 @@ const LoginPage = () => {
                       //     toast.error(err.response.data.message);
                       //   });
                     }}
-                  />
+                  /> */}
                 </div>
 
                 <div className="space-x-2 mt-2">
