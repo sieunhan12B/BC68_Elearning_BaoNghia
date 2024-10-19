@@ -9,8 +9,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { nguoiDungService } from "../../service/nguoiDung.service";
 import { NotificationContext } from "../../App";
 import { path } from "../../common/path";
-import ReactFacebookLogin from "react-facebook-login";
-import FaceBook from "../../components/Icon/FaceBook";
+// import ReactFacebookLogin from "react-facebook-login";
+// import FaceBook from "../../components/Icon/FaceBook";
 
 const RegisterPage = () => {
   const { showNotification } = useContext(NotificationContext);
@@ -123,9 +123,9 @@ const RegisterPage = () => {
                   <span>
                     {/* <i className=" bg-[rgb(24,119,242)] fa-brands fa-facebook"></i>
                      */}
-                    <FaceBook />
+                    {/* <FaceBook /> */}
                   </span>
-                  <ReactFacebookLogin
+                  {/* <ReactFacebookLogin
                     cssClass="btnfb"
                     appId="1493093984735988"
                     fields="name,email,picture"
@@ -144,7 +144,7 @@ const RegisterPage = () => {
                       //     toast.error(err.response.data.message);
                       //   });
                     }}
-                  />
+                  /> */}
                 </div>
                 <div className="space-x-2 mt-2">
                   <span>Bạn đã có tài khoản ?</span>
